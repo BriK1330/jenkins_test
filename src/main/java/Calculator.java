@@ -38,8 +38,14 @@ class Calculator {
     .
     etc
      */
+    int fib(int n)
+    {
+      if (n <= 1)
+        return n;
+      return fib(n - 1) + fib(n - 2);
+    }
     int fibonacciNumberFinder(int n){
-        return 0;
+        return fib(n);
     }
 
 
