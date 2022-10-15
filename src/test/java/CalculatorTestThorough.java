@@ -49,7 +49,6 @@ public class CalculatorTestThorough {
         for(int i = 1; i < 2000000000 ; i++){
             assertEquals(0 , myCalculator.divide(0 , i));
         }
-
     }
 
 //    @Test
