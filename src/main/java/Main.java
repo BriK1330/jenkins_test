@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-  public static void main() {
+  public static void main(String[] args) {
     Calculator calc = new Calculator();
     boolean on = true;
     System.out.print("Welcome to the Calculator!");
